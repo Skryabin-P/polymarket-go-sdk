@@ -10,11 +10,11 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	polymarket "github.com/neor-it/polymarket-go-sdk"
-	"github.com/neor-it/polymarket-go-sdk/pkg/auth"
-	"github.com/neor-it/polymarket-go-sdk/pkg/clob"
-	"github.com/neor-it/polymarket-go-sdk/pkg/clob/clobtypes"
-	"github.com/neor-it/polymarket-go-sdk/pkg/types"
+	polymarket "github.com/skryabin-p/polymarket-go-sdk"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/auth"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/clobtypes"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/types"
 )
 
 func main() {

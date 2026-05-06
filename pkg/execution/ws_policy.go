@@ -4,7 +4,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/neor-it/polymarket-go-sdk/pkg/clob/ws"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/ws"
 )
 
 const (

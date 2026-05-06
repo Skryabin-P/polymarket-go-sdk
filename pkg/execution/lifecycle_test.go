@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/neor-it/polymarket-go-sdk/pkg/clob/clobtypes"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/clobtypes"
 )
 
 func TestNormalizeLifecycleState(t *testing.T) {

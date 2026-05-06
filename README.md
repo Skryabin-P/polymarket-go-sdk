@@ -67,7 +67,7 @@ graph TD
 ## 🚀 Installation
 
 ```bash
-go get github.com/neor-it/polymarket-go-sdk
+go get github.com/skryabin-p/polymarket-go-sdk
 ```
 
 ## 🛠 Quick Start
@@ -289,7 +289,7 @@ The SDK provides typed errors in `pkg/errors` to help you handle trading failure
 ```go
 import (
     "errors"
-    sdkerrors "github.com/neor-it/polymarket-go-sdk/pkg/errors"
+    sdkerrors "github.com/skryabin-p/polymarket-go-sdk/pkg/errors"
 )
 
 resp, err := client.CLOB.CreateOrder(ctx, order)

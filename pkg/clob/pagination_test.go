@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/neor-it/polymarket-go-sdk/pkg/clob/clobtypes"
-	"github.com/neor-it/polymarket-go-sdk/pkg/transport"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/clobtypes"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/transport"
 )
 
 func TestOrdersAllPagination(t *testing.T) {

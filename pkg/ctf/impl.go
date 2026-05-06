@@ -11,7 +11,7 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	sdkerrors "github.com/neor-it/polymarket-go-sdk/pkg/errors"
+	sdkerrors "github.com/skryabin-p/polymarket-go-sdk/pkg/errors"
 )
 
 const (

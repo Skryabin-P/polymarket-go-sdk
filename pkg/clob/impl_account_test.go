@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/neor-it/polymarket-go-sdk/pkg/auth"
-	"github.com/neor-it/polymarket-go-sdk/pkg/clob/clobtypes"
-	"github.com/neor-it/polymarket-go-sdk/pkg/transport"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/auth"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/clobtypes"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/transport"
 )
 
 type headerCaptureDoer struct {

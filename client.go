@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/neor-it/polymarket-go-sdk/pkg/auth"
-	"github.com/neor-it/polymarket-go-sdk/pkg/bridge"
-	"github.com/neor-it/polymarket-go-sdk/pkg/clob"
-	"github.com/neor-it/polymarket-go-sdk/pkg/clob/ws"
-	"github.com/neor-it/polymarket-go-sdk/pkg/ctf"
-	"github.com/neor-it/polymarket-go-sdk/pkg/data"
-	"github.com/neor-it/polymarket-go-sdk/pkg/gamma"
-	"github.com/neor-it/polymarket-go-sdk/pkg/rtds"
-	"github.com/neor-it/polymarket-go-sdk/pkg/transport"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/auth"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/bridge"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/ws"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/ctf"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/data"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/gamma"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/rtds"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/transport"
 )
 
 // Client aggregates service clients behind a shared configuration.

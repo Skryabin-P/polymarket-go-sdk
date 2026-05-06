@@ -1,13 +1,13 @@
 package clob
 
-import "github.com/neor-it/polymarket-go-sdk/pkg/clob/clobtypes"
+import "github.com/skryabin-p/polymarket-go-sdk/pkg/clob/clobtypes"
 
 import (
 	"fmt"
 	"strconv"
 	"strings"
 
-	"github.com/neor-it/polymarket-go-sdk/pkg/types"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/types"
 )
 
 func buildOrderPayload(order *clobtypes.SignedOrder) (map[string]interface{}, error) {

@@ -48,7 +48,7 @@ import (
     "log"
     "os"
 
-    polymarket "github.com/neor-it/polymarket-go-sdk"
+    polymarket "github.com/skryabin-p/polymarket-go-sdk"
     "github.com/neor-it/polymarket-go-sdk/pkg/auth"
 )
 

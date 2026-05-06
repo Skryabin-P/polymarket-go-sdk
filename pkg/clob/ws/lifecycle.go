@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/neor-it/polymarket-go-sdk/pkg/logger"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/logger"
 )
 
 func (c *clientImpl) Close() error {

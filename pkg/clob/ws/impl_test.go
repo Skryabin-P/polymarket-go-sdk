@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/neor-it/polymarket-go-sdk/pkg/auth"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/auth"
 )
 
 // --------------- normalizeWSURLs ---------------

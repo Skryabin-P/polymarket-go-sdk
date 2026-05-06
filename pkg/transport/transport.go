@@ -17,8 +17,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/neor-it/polymarket-go-sdk/pkg/auth"
-	"github.com/neor-it/polymarket-go-sdk/pkg/types"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/auth"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/types"
 )
 
 const (
@@ -61,7 +61,7 @@ func NewClient(httpClient Doer, baseURL string) *Client {
 	return &Client{
 		httpClient: httpClient,
 		baseURL:    baseURL,
-		userAgent:  "github.com/neor-it/polymarket-go-sdk/1.0",
+		userAgent:  "github.com/skryabin-p/polymarket-go-sdk/1.0",
 	}
 }
 

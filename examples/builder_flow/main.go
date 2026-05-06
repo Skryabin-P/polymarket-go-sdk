@@ -4,17 +4,17 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/neor-it/polymarket-go-sdk/pkg/clob/clobtypes"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/clobtypes"
 	"log"
 	"os"
 	"strconv"
 	"strings"
 
-	polymarket "github.com/neor-it/polymarket-go-sdk"
-	"github.com/neor-it/polymarket-go-sdk/pkg/auth"
-	"github.com/neor-it/polymarket-go-sdk/pkg/clob"
+	polymarket "github.com/skryabin-p/polymarket-go-sdk"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/auth"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob"
 
-	"github.com/neor-it/polymarket-go-sdk/pkg/gamma"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/gamma"
 )
 
 func main() {

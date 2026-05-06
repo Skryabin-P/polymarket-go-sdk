@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/neor-it/polymarket-go-sdk/pkg/gamma"
-	"github.com/neor-it/polymarket-go-sdk/pkg/transport"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/gamma"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/transport"
 )
 
 func main() {

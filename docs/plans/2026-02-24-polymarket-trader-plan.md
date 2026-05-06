@@ -31,7 +31,7 @@ go mod init github.com/GoPolymarket/polymarket-trader
 **Step 2: Add SDK dependency**
 
 ```bash
-go get github.com/neor-it/polymarket-go-sdk@latest
+go get github.com/skryabin-p/polymarket-go-sdk@latest
 go get gopkg.in/yaml.v3
 ```
 
@@ -1313,7 +1313,7 @@ import (
 	"syscall"
 	"time"
 
-	polymarket "github.com/neor-it/polymarket-go-sdk"
+	polymarket "github.com/skryabin-p/polymarket-go-sdk"
 	"github.com/neor-it/polymarket-go-sdk/pkg/auth"
 	"github.com/neor-it/polymarket-go-sdk/pkg/clob"
 	"github.com/neor-it/polymarket-go-sdk/pkg/clob/clobtypes"

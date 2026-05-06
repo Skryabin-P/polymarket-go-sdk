@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/neor-it/polymarket-go-sdk/pkg/auth"
-	sdkerrors "github.com/neor-it/polymarket-go-sdk/pkg/errors"
-	"github.com/neor-it/polymarket-go-sdk/pkg/logger"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/auth"
+	sdkerrors "github.com/skryabin-p/polymarket-go-sdk/pkg/errors"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/logger"
 )
 
 const (

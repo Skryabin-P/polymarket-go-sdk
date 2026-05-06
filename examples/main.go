@@ -3,11 +3,11 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/neor-it/polymarket-go-sdk/pkg/clob/clobtypes"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/clobtypes"
 	"log"
 	"time"
 
-	polymarket "github.com/neor-it/polymarket-go-sdk"
+	polymarket "github.com/skryabin-p/polymarket-go-sdk"
 )
 
 func main() {

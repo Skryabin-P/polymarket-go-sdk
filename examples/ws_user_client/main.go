@@ -7,10 +7,10 @@ import (
 	"os"
 	"os/signal"
 
-	polymarket "github.com/neor-it/polymarket-go-sdk"
-	"github.com/neor-it/polymarket-go-sdk/pkg/auth"
-	"github.com/neor-it/polymarket-go-sdk/pkg/clob/ws"
-	"github.com/neor-it/polymarket-go-sdk/pkg/gamma"
+	polymarket "github.com/skryabin-p/polymarket-go-sdk"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/auth"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/ws"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/gamma"
 )
 
 func main() {

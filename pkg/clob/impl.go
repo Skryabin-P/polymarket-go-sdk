@@ -8,14 +8,14 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/neor-it/polymarket-go-sdk/pkg/auth"
-	"github.com/neor-it/polymarket-go-sdk/pkg/clob/cloberrors"
-	"github.com/neor-it/polymarket-go-sdk/pkg/clob/clobtypes"
-	"github.com/neor-it/polymarket-go-sdk/pkg/clob/heartbeat"
-	"github.com/neor-it/polymarket-go-sdk/pkg/clob/rfq"
-	"github.com/neor-it/polymarket-go-sdk/pkg/clob/ws"
-	"github.com/neor-it/polymarket-go-sdk/pkg/transport"
-	"github.com/neor-it/polymarket-go-sdk/pkg/types"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/auth"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/cloberrors"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/clobtypes"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/heartbeat"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/rfq"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/ws"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/transport"
+	"github.com/skryabin-p/polymarket-go-sdk/pkg/types"
 )
 
 // clientImpl implements the Client interface.
