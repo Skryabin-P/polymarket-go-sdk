@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/types"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/types"
 )
 
 // NumericString preserves numeric API fields as strings while accepting JSON numbers.

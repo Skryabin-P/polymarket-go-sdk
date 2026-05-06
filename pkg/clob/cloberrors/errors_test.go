@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	sdkerrors "github.com/skryabin-p/polymarket-go-sdk/pkg/errors"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/types"
+	sdkerrors "github.com/Skryabin-P/polymarket-go-sdk/pkg/errors"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/types"
 )
 
 func TestFromTypeErr_NilError(t *testing.T) {

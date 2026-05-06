@@ -8,8 +8,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shopspring/decimal"
 
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/clobtypes"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/types"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/clob/clobtypes"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/types"
 )
 
 func TestBuildOrderPayloadCasingAndOptions(t *testing.T) {

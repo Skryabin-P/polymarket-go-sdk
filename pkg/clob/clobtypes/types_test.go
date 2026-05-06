@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/types"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/types"
 )
 
 func TestOrderTypeConstants(t *testing.T) {

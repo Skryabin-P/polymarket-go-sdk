@@ -6,10 +6,10 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/auth"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/clob"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/clob/clobtypes"
 	"github.com/shopspring/decimal"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/auth"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/clobtypes"
 )
 
 // Engine contains end-to-end scan/analyze/plan/execute flow.

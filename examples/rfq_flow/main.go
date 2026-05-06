@@ -3,17 +3,17 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/clobtypes"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/clob/clobtypes"
 	"log"
 	"os"
 	"strconv"
 	"strings"
 
-	polymarket "github.com/skryabin-p/polymarket-go-sdk"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/auth"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob"
+	polymarket "github.com/Skryabin-P/polymarket-go-sdk"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/auth"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/clob"
 
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/rfq"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/clob/rfq"
 )
 
 func main() {

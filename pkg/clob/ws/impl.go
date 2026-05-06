@@ -10,8 +10,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/auth"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/logger"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/auth"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/logger"
 
 	"github.com/gorilla/websocket"
 )

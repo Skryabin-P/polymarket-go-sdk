@@ -7,8 +7,8 @@ import (
 	"os"
 	"strings"
 
-	polymarket "github.com/skryabin-p/polymarket-go-sdk"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/data"
+	polymarket "github.com/Skryabin-P/polymarket-go-sdk"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/data"
 
 	"github.com/ethereum/go-ethereum/common"
 )

@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/clobtypes"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/clob/clobtypes"
 )
 
 func (c *clientImpl) Markets(ctx context.Context, req *clobtypes.MarketsRequest) (clobtypes.MarketsResponse, error) {

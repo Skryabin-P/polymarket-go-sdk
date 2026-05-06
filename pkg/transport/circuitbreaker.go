@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/errors"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/errors"
 )
 
 // CircuitState represents the state of the circuit breaker.

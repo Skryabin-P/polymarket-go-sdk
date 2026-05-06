@@ -6,7 +6,7 @@ package ws
 import (
 	"context"
 
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/auth"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/auth"
 )
 
 // Client defines the interface for interacting with Polymarket's WebSocket services.

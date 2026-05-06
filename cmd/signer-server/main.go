@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/auth"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/auth"
 )
 
 // Request payload matching what the SDK sends

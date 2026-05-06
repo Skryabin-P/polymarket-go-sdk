@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/logger"
 	"github.com/gorilla/websocket"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/logger"
 )
 
 func (c *clientImpl) Close() error {

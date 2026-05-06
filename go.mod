@@ -1,4 +1,4 @@
-module github.com/skryabin-p/polymarket-go-sdk
+module github.com/Skryabin-P/polymarket-go-sdk
 
 go 1.24.0
 

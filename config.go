@@ -3,9 +3,9 @@ package polymarket
 import (
 	"time"
 
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/ws"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/rtds"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/transport"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/clob/ws"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/rtds"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/transport"
 )
 
 // BaseURLs defines per-service base endpoints.

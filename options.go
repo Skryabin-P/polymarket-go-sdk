@@ -1,15 +1,15 @@
 package polymarket
 
 import (
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/auth"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/bridge"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/ws"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/ctf"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/data"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/gamma"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/rtds"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/transport"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/auth"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/bridge"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/clob"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/clob/ws"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/ctf"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/data"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/gamma"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/rtds"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/transport"
 )
 
 // Option mutates the root client.

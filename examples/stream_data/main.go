@@ -6,9 +6,9 @@ import (
 	"log"
 	"time"
 
-	polymarket "github.com/skryabin-p/polymarket-go-sdk"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/clobtypes"
+	polymarket "github.com/Skryabin-P/polymarket-go-sdk"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/clob"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/clob/clobtypes"
 )
 
 func main() {

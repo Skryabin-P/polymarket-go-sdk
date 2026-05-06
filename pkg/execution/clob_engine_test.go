@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/clobtypes"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/clob/clobtypes"
 )
 
 type fakeCLOBClient struct {

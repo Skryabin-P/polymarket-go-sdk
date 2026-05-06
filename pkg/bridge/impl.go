@@ -7,12 +7,12 @@ import (
 	"strings"
 	"sync"
 
+	sdkerrors "github.com/Skryabin-P/polymarket-go-sdk/pkg/errors"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/transport"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	sdkerrors "github.com/skryabin-p/polymarket-go-sdk/pkg/errors"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/transport"
 )
 
 const (

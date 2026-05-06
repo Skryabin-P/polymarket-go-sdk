@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/clob/clobtypes"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/clob/clobtypes"
 	"log"
 	"math/big"
 	"os"
@@ -13,10 +13,10 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/shopspring/decimal"
 
-	polymarket "github.com/skryabin-p/polymarket-go-sdk"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/auth"
+	polymarket "github.com/Skryabin-P/polymarket-go-sdk"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/auth"
 
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/types"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/types"
 )
 
 func main() {

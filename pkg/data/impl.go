@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	sdkerrors "github.com/skryabin-p/polymarket-go-sdk/pkg/errors"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/transport"
-	"github.com/skryabin-p/polymarket-go-sdk/pkg/types"
+	sdkerrors "github.com/Skryabin-P/polymarket-go-sdk/pkg/errors"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/transport"
+	"github.com/Skryabin-P/polymarket-go-sdk/pkg/types"
 
 	"github.com/ethereum/go-ethereum/common"
 )
