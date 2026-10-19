@@ -352,8 +352,13 @@ type (
 	}
 	PricesHistoryResponse []PriceHistoryPoint
 	OrderResponse         struct {
-		ID           string `json:"orderID"`
-		Status       string `json:"status"`
+		ID     string `json:"orderID"`
+		Status string `json:"status"`
+		// Success and ErrorMsg are populated by the batch endpoint (POST /orders), where each
+		// entry is accepted or rejected independently inside a 200 response. Success is nil
+		// when the field is absent (single-order responses).
+		Success      *bool  `json:"success,omitempty"`
+		ErrorMsg     string `json:"errorMsg,omitempty"`
 		AssetID      string `json:"asset_id,omitempty"`
 		Market       string `json:"market,omitempty"`
 		Side         string `json:"side,omitempty"`
@@ -722,6 +727,21 @@ func (o *OrderResponse) UnmarshalJSON(data []byte) error {
 	if value, ok := raw["status"]; ok {
 		if err := unmarshalOrderResponseString(value, &next.Status); err != nil {
 			return fmt.Errorf("status: %w", err)
+		}
+	}
+	if value, ok := raw["success"]; ok {
+		trimmed := bytes.TrimSpace(value)
+		if len(trimmed) > 0 && !bytes.Equal(trimmed, []byte("null")) {
+			var success bool
+			if err := json.Unmarshal(trimmed, &success); err != nil {
+				return fmt.Errorf("success: %w", err)
+			}
+			next.Success = &success
+		}
+	}
+	if value, ok := raw["errorMsg"]; ok {
+		if err := unmarshalOrderResponseString(value, &next.ErrorMsg); err != nil {
+			return fmt.Errorf("errorMsg: %w", err)
 		}
 	}
 	if value, ok := raw["asset_id"]; ok {

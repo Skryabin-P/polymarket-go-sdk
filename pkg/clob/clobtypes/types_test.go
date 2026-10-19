@@ -799,3 +799,43 @@ func TestTrade_ExpandedFields(t *testing.T) {
 		t.Errorf("FeeRateBps = %s, want 100", trade.FeeRateBps)
 	}
 }
+
+func TestOrderResponse_BatchSuccessAndErrorMsg(t *testing.T) {
+	raw := `[
+		{"success": true, "errorMsg": "", "orderID": "0xaaa", "status": "matched"},
+		{"success": false, "errorMsg": "order couldn't be fully filled. FOK orders are fully filled or killed.", "orderID": "0xbbb", "status": ""}
+	]`
+
+	var resp PostOrdersResponse
+	if err := json.Unmarshal([]byte(raw), &resp); err != nil {
+		t.Fatalf("unmarshal failed: %v", err)
+	}
+	if len(resp) != 2 {
+		t.Fatalf("len = %d, want 2", len(resp))
+	}
+
+	ok := resp[0]
+	if ok.Success == nil || !*ok.Success {
+		t.Errorf("first Success = %v, want true", ok.Success)
+	}
+	if ok.ErrorMsg != "" || ok.ID != "0xaaa" || ok.Status != "matched" {
+		t.Errorf("first entry = %+v", ok)
+	}
+
+	rejected := resp[1]
+	if rejected.Success == nil || *rejected.Success {
+		t.Errorf("second Success = %v, want false", rejected.Success)
+	}
+	if rejected.ErrorMsg == "" || rejected.ID != "0xbbb" {
+		t.Errorf("second entry = %+v", rejected)
+	}
+
+	// Single-order responses do not carry the field: Success stays nil.
+	var single OrderResponse
+	if err := json.Unmarshal([]byte(`{"orderID": "0xccc", "status": "live"}`), &single); err != nil {
+		t.Fatalf("unmarshal single failed: %v", err)
+	}
+	if single.Success != nil {
+		t.Errorf("single Success = %v, want nil", *single.Success)
+	}
+}
